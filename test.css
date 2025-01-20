@@ -1,0 +1,38 @@
+/* div p{
+    color: red;
+}
+div span{
+    color: red;
+}
+ */
+
+/* div *{
+    color: red;
+} */
+/* 
+div p{
+    color: green;  
+} */
+
+/* div * + *  {
+    color: green;
+} */
+
+/* ul li:first-child{
+    color: red;
+} */
+
+/* ul li:first-of-type {
+    color: green;
+} */
+
+div.abc :first-of-type ~ p {
+    color: blue;
+}
+/* div.abc :first-child{
+    color: blue;
+} */
+
+.abc{
+    border: 5px solid black;
+}

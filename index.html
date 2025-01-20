@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content language" content="en-us">
+    <!-- <meta http-equiv="refresh" content="100; http://blog.local/" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./images/pascal-bullan-x-rOmqpfi3E-unsplash.jpg" alt="">
+        <div class="links">
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Contact us</a>
+            <a href="">Login</a>
+            <a href="">Signup</a>
+        </div>
+    </header>
+    <h1 id="rcentpst" onclick="scrollToRecentPosts()">Recent Posts</h1>
+    <div id="recent-posts-section" class="images">
+        <div id="img1">
+            <div class="imageSection">
+                <img src="./images/julia-vivcharyk-OZrOqF_OXxw-unsplash.jpg" alt="">
+            </div>
+            <div class="textSection">
+                <h1>
+                    Amazing Universe
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non enim commodo, auctor dolor nec,
+                    commodo dui. Sed vitae lectus ut purus congue efficitur. Donec et velit ac velit bibendum lobortis.
+                    Nulla facilisi. Donec at neque in metus consectetur consectetur.
+                </p>
+            </div>
+        </div> 
+        <div id="img1">
+            <div class="imageSection">
+                <img src="./images/julia-vivcharyk-OZrOqF_OXxw-unsplash.jpg" alt="">
+            </div>
+            <div class="textSection">
+                <h1>
+                    Amazing Universe
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non enim commodo, auctor dolor nec,
+                    commodo dui. Sed vitae lectus ut purus congue efficitur. Donec et velit ac velit bibendum lobortis.
+                    Nulla facilisi. Donec at neque in metus consectetur consectetur.
+                </p>
+            </div>
+        </div> 
+        <div id="img1">
+            <div class="imageSection">
+                <img src="./images/julia-vivcharyk-OZrOqF_OXxw-unsplash.jpg" alt="">
+            </div>
+            <div class="textSection">
+                <h1>
+                    Amazing Universe
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non enim commodo, auctor dolor nec,
+                    commodo dui. Sed vitae lectus ut purus congue efficitur. Donec et velit ac velit bibendum lobortis.
+                    Nulla facilisi. Donec at neque in metus consectetur consectetur.
+                </p>
+            </div>
+        </div> 
+        <div id="img1">
+            <div class="imageSection">
+                <img src="./images/julia-vivcharyk-OZrOqF_OXxw-unsplash.jpg" alt="">
+            </div>
+            <div class="textSection">
+                <h1>
+                    Amazing Universe
+                </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non enim commodo, auctor dolor nec,
+                    commodo dui. Sed vitae lectus ut purus congue efficitur. Donec et velit ac velit bibendum lobortis.
+                    Nulla facilisi. Donec at neque in metus consectetur consectetur.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+     <footer>
+        <div id="footer-start">
+            <h2>unidentical me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste temporibus, sint laboriosam eveniet quod dolores magnam dignissimos nobis omnis accusantium nesciunt eius doloremque nulla beatae numquam maiores? Iure, aliquid culpa.</p>
+        </div>
+        <div id="footer-middle">
+            <h2>Quick Links</h2>
+                <h3><a href="#">Services</a></h3>
+                <h3><a href="#">About Us</a></h3>
+                <h3><a href="#">Blog</a></h3>
+                <h3><a href="#">Careers</a></h3>
+        </div>
+        <div id="footer-end">
+            <h2>Contact Us</h2>
+                <h3><span>email</span>: KuchBhi@KuchBhi.com</h3>
+                <h3>Phone: +91 9301209803</h>
+                <h3>Address: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, numquam.</h3>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToRecentPosts() {
+         
+            const recentPosts = document.getElementById("rcentpst");
+            recentPosts.scrollIntoView({ behavior: "smooth" });
+    
+            // window.history.pushState(null, null, "#recent-posts-section");
+            location.href += "#rcentpst";
+        }
+    </script>
+    
+</body>
+
+
+</html>
